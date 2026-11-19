@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+}
+
+table {
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    
+    margin: 0px auto;
+    margin-bottom: 0px;
+    border-collapse: collapse;
+    clear:left;
+}
+
+table.maklumat {
+    width: 400px;
+}
+
+caption {
+	font-size: 16px;
+	font-weight: bold;
+	color: darkgreen;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+td, th {
+    padding: 8px;
+    border: 2px solid black;
+}
+
+td.nama {
+    width: 150px;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: #e5f280;
+}
+
+tr:nth-child(even) {
+    background-color: #fdffed;
+} 
+
+th {
+    font-weight: bold;
+    color: white;
+    background-color: #7f9000;
+}
